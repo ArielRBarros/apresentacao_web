@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ariel R. Barros</title>
+    <link rel="shortcut icon" href="../assets/tag-favoicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/menu.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header id="menu-container">
+        <div class="menu">
+            <nav class="nav-links">
+                <div class="links">
+          <a href="/index.html    " target="_self">Inicio</a>
+                    <a href="/pages/about-me.html">Sobre mim</a>
+                    <a href="/pages/skills.html" target="_self">Skills</a>
+                    <a href="/pages/chat-bot.html">Chat bot</a>
+                    <a href="/pages/contact.html">Contato</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/9.nobody99/#" target="_blank"><img src="/assets/instagram.svg"
+                            alt="logo instagram">Instagram</a>
+                    <a href="https://discord.gg/qUtJZhCu" target="_blank"><img src="/assets/discord.header.svg"
+                            alt="logo Discord">Discord</a>
+                    <a href="https://github.com/ArielRBarros" target="_blank"><img src="/assets/github.svg"
+                            alt="Logo Git-Hub">Git-Hub</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main id="main-content" class="main-content">
+        <section class="form-content">
+            <div class="form-title">
+                <h2>Contato</h2>
+                <p>Atualmente estou disponível para trabalhos freelance.</p>
+            </div>
+            <form id="form">
+                <div class="name">
+                    <label for="user-input">Seu Nome:</label>
+                    <input id="user-input" type="text" placeholder="Ex:. José">
+                </div>
+
+                <div class="message">
+                    <label for="message-input">Mensagem:</label>
+                    <input id="message-input" type="text" placeholder="Olá, gostaria de saber mais!">
+                </div>
+
+                <p id="form-error"></p>
+
+                <button type="button" onclick="handleWhatsappLinkClick()">
+                    Envie sua mensagem <img src="../assets/Shape.svg" alt="">
+                </button>
+            </form>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2025 Ariel R. Barros. All rights reserved.</p>
+            <div class="terms">
+                <a href="./privacidade.htm">Privacy Policy</a>
+                <a href="./terms.html">Terms & Conditions</a>
+            </div>
+            <div class="social-footer">
+                <a href="https://www.instagram.com/9.nobody99/#" target="_blank"><img
+                        src="../assets/instagram-footer.svg" alt="logo instagram"></a>
+                <a href="https://discord.gg/qUtJZhCu" target="_blank"><img src="../assets/Discord.svg"
+                        alt="logo Discord"></a>
+                <a href="https://github.com/ArielRBarros" target="_blank"><img src="../assets/GIT-HUB.svg"
+                        alt="Logo Git-Hub"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="../js/contact.js"></script>
+
+</html>
